@@ -1,0 +1,107 @@
+.services__title {
+  text-align: center;
+  font-family: $font-montserrat;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 112px;
+  padding-top: 54px;
+}
+
+.services__title::first-letter {
+  text-transform: uppercase;
+}
+
+.services__title span {
+  font-family: $font-kaushan;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 400;
+  text-transform: lowercase;
+}
+
+.services_title::after {
+  display: block;
+  width: 60px;
+  content: "";
+  height: 3px;
+  bottom: -40px;
+  background-color: colorf38181;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.services__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.services__list-item {
+  width: 382px;
+  margin-bottom: 102px;
+}
+
+.services__list-item_photography {
+  background-image: url(../images/icons/services/alarm.svg);
+  background-repeat: no-repeat;
+  background-position: 22px 4px;
+}
+
+.services__list-item_desing {
+  background-image: url(../images/icons/services/linegraph.svg);
+  background-repeat: no-repeat;
+  background-position: 22px 4px;
+}
+
+.services__list-item_creativity {
+  background-image: url(../images/icons/services/computer.svg);
+  background-repeat: no-repeat;
+  background-position: 22px 4px;
+}
+
+.services__list-item_seo {
+  background-image: url(../images/icons/services/book.svg);
+  background-repeat: no-repeat;
+  background-position: 22px 4px;
+}
+
+.services__list-item_css {
+  background-image: url(../images/icons/services/home.svg);
+  background-repeat: no-repeat;
+  background-position: 22px 4px;
+}
+
+.services__list-item_digital {
+  background-image: url(../images/icons/services/image.svg);
+  background-repeat: no-repeat;
+  background-position: 22px 4px;
+}
+
+.services__name {
+  font-family: $font-montserrat;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  padding-left: 82px;
+  padding-bottom: 20px;
+}
+
+.services__about {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  color: $color999999;
+  padding-left: 82px;
+}
